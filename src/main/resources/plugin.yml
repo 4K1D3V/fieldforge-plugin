@@ -1,0 +1,20 @@
+name: FieldForge
+version: 1.0.0
+main: pro.akii.ks.core.fieldforge.FieldForgePlugin
+api-version: 1.21
+author: ["Kit"]
+website: https://ks.akii.pro
+commands:
+  fieldforge:
+    description: Manage vector fields
+    usage: /<command> <create|remove|list|reload|modify|toggle|activate|deactivate|gui> [args]
+permissions:
+  fieldforge.use:
+    description: Allows basic FieldForge commands
+    default: op
+  fieldforge.admin:
+    description: Allows managing all fields
+    default: op
+  fieldforge.gui:
+    description: Allows using the GUI
+    default: op

@@ -1,0 +1,15 @@
+vector-fields:
+  max-per-player: 3
+  default-range: 10
+  particle-density: 0.5
+  max-force: 5.0
+  sound-effects:
+    radial: "minecraft:entity.ender_eye.ambient"
+    linear: "minecraft:entity.ghast.shoot"
+    vortex: "minecraft:entity.wither.shoot"
+  particle-types:
+    radial: "ELECTRIC_SPARK"
+    linear: "SWEEP_ATTACK"
+    vortex: "SMOKE_NORMAL"
+  environmental-effects:
+    vortex-leaves: true
